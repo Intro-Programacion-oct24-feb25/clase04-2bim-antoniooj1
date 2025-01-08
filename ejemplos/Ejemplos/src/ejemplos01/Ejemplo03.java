@@ -4,6 +4,8 @@
  * and open the template in the editor.
  */
 package ejemplos01;
+import java.util.Scanner;
+
 
 /**
  *
@@ -12,8 +14,17 @@ package ejemplos01;
 public class Ejemplo03 {
 
     public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
         // 
-        int valor = obtenerSuma(10, 30); // se invoca al método 
+        int valor1;
+        int valor2;
+        System.out.println("Ingrese el primer valor");
+        valor1 = entrada.nextInt();
+        System.out.println("Ingrese el segundo valor");
+        valor2 = entrada.nextInt();
+        
+        
+        int valor = obtenerSuma(valor1, valor2); // se invoca al método 
                                          // obtenerSuma
         System.out.printf("El valor de la suma es: %d\n", valor);
         
