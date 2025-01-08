@@ -26,17 +26,12 @@ public class Ejemplo08 {
         limite = entrada.nextInt();
         System.out.println("Ingrese el segundo valor");
         tabla = entrada.nextInt();
-                                                       // obtenerTablaSumar
-                                                       // y el valor que 
-                                                       // devuelve se lo 
-                                                       // almacena  en mensajeSuma
         
         switch(opcion){
             case 1 : mensajeSuma = obtenerTablaSumar(limite, tabla);
             break;
             case 2 : mensajeSumaDos = obtenerTablaMultiplicar(limite, tabla);
             break;
-
             
         }
         

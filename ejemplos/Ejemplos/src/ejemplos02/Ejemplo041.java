@@ -10,6 +10,16 @@ package ejemplos02;
  * @author reroes
  */
 public class Ejemplo041 {
+    /*
+       En este codigo tenemos en el main 3 arreglos bidimensionales, dos de 
+    estos ya tienen valores inicializados y el arreglo3 no tiene.
+    Se hace un ciclo for para que arreglo 2 obtenga los valores de arreglo1
+    y arreglo2 multiplicados ocupando una funcion, una vez llamada la funcion, 
+    nos vamos al proceso en el cual dependiendo de la posicion que tenga se le 
+    van asignando valores, en este caso arreglo1[1][j] i arreglo2[i][j] toman
+    valores de a y b y se multiplican y a la final con obtener reporte
+    reutilizamos ese proceso para reciclar codigo e imprimir el codigo
+    */
 
     public static void main(String[] args) {
         // 
